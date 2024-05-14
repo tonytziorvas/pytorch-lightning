@@ -14,7 +14,7 @@ repos:
       - id: interrogate
         args: [src, -v, -i, --fail-under=80]
         pass_filenames: false
-  - repo: <https://github.com/pre-commit/pre-commit-hooks>
+  - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v3.2.0
     hooks:
     -   id: trailing-whitespace
