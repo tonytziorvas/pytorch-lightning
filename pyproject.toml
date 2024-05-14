@@ -8,6 +8,12 @@ authors = ["Tony Tziorvas"]
 [tool.poetry.dependencies]
 python = "~3.10"
 hydra-core = "^1.1.1"
+torch = "^2.3.0"
+torchvision = "^0.18.0"
+lightning = "^2.2.4"
+torchaudio = "^2.3.0"
+matplotlib = "^3.8.4"
+numpy = "^1.26.4"
 
 [tool.poetry.dev-dependencies]
 pdoc3 = "^0.10.0"
